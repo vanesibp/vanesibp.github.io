@@ -3,9 +3,16 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
   
   nav {
-    
     background-color: #333;
     height: 50px;
     display: flex;
@@ -17,6 +24,7 @@ body {
   nav a {
     color: #fff;
     text-decoration: none;
+    
   }
   
   nav ul {
@@ -63,5 +71,8 @@ body {
     nav.active ul li {
       margin: 10px;
     }
+
+      /* text-decoration: none; */
+    
   }
   
