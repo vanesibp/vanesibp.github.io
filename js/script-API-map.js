@@ -1,3 +1,6 @@
+// codigo para el mapa de google maps:
+
+//Función que muestra las indicaciones desde la dirección de partida indicada:
 function calculateDirections(directionsService, directionsRenderer) {
   var startAddress = document.getElementById('start-address').value;
 
@@ -12,7 +15,9 @@ function calculateDirections(directionsService, directionsRenderer) {
       directionsRenderer.setDirections(result);
     }
   });
-}function iniciarMap(){
+}
+//Inicia el mapa de Google:
+function iniciarMap(){
     var directionsService = new google.maps.DirectionsService();
     var directionsRenderer = new google.maps.DirectionsRenderer();
 

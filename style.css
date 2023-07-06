@@ -138,10 +138,12 @@ body {
   #azul {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 10px 20px;
 	background: #8ddbfc;
 	border-top: solid 1px #202a8a;
+	border-bottom: solid 1px #202a8a;
+	padding-bottom: 20px;
   }
 
 
